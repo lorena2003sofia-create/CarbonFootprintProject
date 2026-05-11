@@ -1,5 +1,5 @@
 public class Car implements CarbonFootprint {
-    private final double gallons;
+    private double gallons;
 
     public Car(double gallons) {
         this.gallons = gallons;
@@ -11,7 +11,7 @@ public class Car implements CarbonFootprint {
     }
 
     @Override
-    public String getIdentification() {
-        return "Car [" + gallons + " gal]";
+    public String toString() {
+        return "Car [Fuel: " + gallons + " gallons]";
     }
 }
