@@ -13,6 +13,6 @@ public class Main {
             System.out.println(item.toString() + " | CO2: " + item.getCarbonFootprint() + " kg");
         }
 
-        FileService.saveToFile(list, "carbon_data.txt");
+        FileHandler.saveToFile(list, "carbon_data.txt");
     }
 }
