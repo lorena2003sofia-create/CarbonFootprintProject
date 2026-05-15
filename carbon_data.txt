@@ -1,0 +1,3 @@
+Building [Area: 3000.0 sq ft] - CO2: 1500.0 kg
+Car [Fuel: 12.0 gallons] - CO2: 105.60000000000001 kg
+Bicycle [Brand: Trek] - CO2: 0.0 kg
